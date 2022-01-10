@@ -1,0 +1,5 @@
+#define MAGIC_NUMBER 'c'
+
+#define WRITE_I _IOW(MAGIC_NUMBER,0,int)
+#define READ_I _IOR(MAGIC_NUMBER,1,int)
+#define GET_STATUS _IOR(MAGIC_NUMBER,2,int)
